@@ -2,6 +2,7 @@
 #define _READ_DATASET_H_
 #include <fstream>
 #include <string>
+#include <vector>
 #include <odom_extrinsic_calibrate/types.h>
 using namespace odom_calib;
 Eigen::Vector3d R2ypr(const Eigen::Matrix3d &R);
